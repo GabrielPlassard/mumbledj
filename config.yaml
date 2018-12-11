@@ -305,6 +305,13 @@ commands:
         messages:
             no_audio_error: "Either the audio is already paused, or there are no tracks in the queue."
             paused: "<b>%s</b> has paused audio playback."
+    
+    pidgin:
+        aliases:
+            - "pidgin"
+            - "pigeon"
+        is_admin: false
+        description: "Pigeon !"
 
     register:
         aliases:

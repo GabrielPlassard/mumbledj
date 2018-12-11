@@ -46,5 +46,6 @@ func init() {
 		new(ToggleShuffleCommand),
 		new(VersionCommand),
 		new(VolumeCommand),
+		new(PidginCommand),
 	}
 }
