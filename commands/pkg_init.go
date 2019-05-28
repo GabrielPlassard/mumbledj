@@ -47,5 +47,6 @@ func init() {
 		new(VersionCommand),
 		new(VolumeCommand),
 		new(PidginCommand),
+		new(MakeNoiseCommand),
 	}
 }

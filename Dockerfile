@@ -15,5 +15,3 @@ WORKDIR /src/github.com/matthieugrieger/mumbledj
 RUN make
 RUN make install
 RUN apk del go make build-base && rm -rf /var/cache/apk/* && rm -rf /src
-
-ENTRYPOINT ["/usr/local/bin/mumbledj"]

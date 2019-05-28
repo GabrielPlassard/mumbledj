@@ -255,6 +255,15 @@ commands:
             invalid_integer_error: "An invalid integer was supplied."
             track_listing: "<b>%d</b>: <i>%s</i>, added by <b>%s</b>.<br>"
 
+    makenoise:
+        aliases:
+            - "makenoise"
+            - "noise"
+            - "bruit"
+            - "faitesdubruit"
+        is_admin: false
+        description: "Faites du bruit !!!!!!!!!!!!"
+
     move:
         aliases:
             - "move"
